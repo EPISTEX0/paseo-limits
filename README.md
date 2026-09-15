@@ -6,6 +6,8 @@ The pill shows the provider's logo and its rate-limit windows, e.g. `5h 18% · w
 
 The pill follows the agent's provider. A Claude agent shows Claude limits, a Codex agent shows Codex limits, and nothing else.
 
+![The limits pill above the Paseo composer](images/pill.png)
+
 ## Install
 
 ```bash
