@@ -9,7 +9,7 @@ The pill follows the agent's provider. A Claude agent shows Claude limits, a Cod
 ## Install
 
 ```bash
-paseo plugin add OrcunJoyoLabs/paseo-limits
+paseo plugin add ortschun/paseo-limits
 ```
 
 Plugins must be enabled on the daemon (**Settings → Plugins → Enable plugins**). Requires Paseo 0.8 or later.
@@ -17,7 +17,7 @@ Plugins must be enabled on the daemon (**Settings → Plugins → Enable plugins
 To install from a local checkout instead:
 
 ```bash
-git clone https://github.com/OrcunJoyoLabs/paseo-limits
+git clone https://github.com/ortschun/paseo-limits
 cd paseo-limits && npm install && npm run typecheck
 paseo plugin install "$PWD"
 ```
